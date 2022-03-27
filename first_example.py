@@ -2,6 +2,7 @@ import discord
 from specials import TOKEN, LOGGER
 
 client = discord.Client()
+laughs = ["laugh", "lmao", "lol", "rofl", "haha"]
 
 @client.event
 async def on_ready():
@@ -19,23 +20,24 @@ async def on_message(message):
     if message.author == client.user:
         return
 
+    text = message.content.lower()
+
     print(message.attachments)
+
     for attach in message.attachments:
-        print(type(attach))
-        print(attach.content_type)
         if attach.content_type.startswith('image'):
             await message.channel.send(f'Can you send it again my eyes were closed')
     
-    if 'lmao' in message.content:
-        await message.channel.send(f'BROOOOO SO FUNNNY')
+    if any(lol in text for lol in laughs):
+        await message.channel.send(f'BROOOOO SO FUNNNY :rofl:')
 
-    if "ben" in message.content:
+    if "ben" in text:
         await message.channel.send(":eggplant:")
 
-    if "ring" in message.content:
+    if "ring" in text:
         await message.channel.send(":peach:")
         
-    if "nick" in message.content:
+    if "nick" in text:
         await message.channel.send(f'Get a load of this guy')
 
     if message.author.display_name == "KCIN75":
@@ -58,8 +60,11 @@ async def on_message(message):
         
     elif message.author.display_name == "jabapo":
         await message.channel.send(f'How\'s my form?')
+
+    elif message.author.display_name == "Dyl":
+        await message.channel.send("Wyd tn? :hot_face:")
         
-    if "gn" in message.content:
+    if "gn" in text:
         await message.channel.send(f'Baby please don\'t hang up i love you so much')
     
 
