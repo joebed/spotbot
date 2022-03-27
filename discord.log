@@ -38,3 +38,82 @@
 2022-03-27 19:02:06,166:DEBUG:discord.client: Dispatching event socket_raw_receive
 2022-03-27 19:02:06,166:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
 2022-03-27 19:02:06,166:DEBUG:discord.client: Dispatching event socket_response
+2022-03-27 19:02:47,371:DEBUG:discord.gateway: Keeping shard ID None websocket alive with sequence 3.
+2022-03-27 19:02:47,414:DEBUG:discord.client: Dispatching event socket_raw_receive
+2022-03-27 19:02:47,414:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-03-27 19:02:47,414:DEBUG:discord.client: Dispatching event socket_response
+2022-03-27 19:03:28,622:DEBUG:discord.gateway: Keeping shard ID None websocket alive with sequence 3.
+2022-03-27 19:03:28,671:DEBUG:discord.client: Dispatching event socket_raw_receive
+2022-03-27 19:03:28,671:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-03-27 19:03:28,671:DEBUG:discord.client: Dispatching event socket_response
+2022-03-27 19:04:09,873:DEBUG:discord.gateway: Keeping shard ID None websocket alive with sequence 3.
+2022-03-27 19:04:09,915:DEBUG:discord.client: Dispatching event socket_raw_receive
+2022-03-27 19:04:09,916:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-03-27 19:04:09,916:DEBUG:discord.client: Dispatching event socket_response
+2022-03-27 19:04:51,124:DEBUG:discord.gateway: Keeping shard ID None websocket alive with sequence 3.
+2022-03-27 19:04:51,165:DEBUG:discord.client: Dispatching event socket_raw_receive
+2022-03-27 19:04:51,165:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-03-27 19:04:51,165:DEBUG:discord.client: Dispatching event socket_response
+2022-03-27 19:05:32,375:DEBUG:discord.gateway: Keeping shard ID None websocket alive with sequence 3.
+2022-03-27 19:05:32,417:DEBUG:discord.client: Dispatching event socket_raw_receive
+2022-03-27 19:05:32,417:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-03-27 19:05:32,417:DEBUG:discord.client: Dispatching event socket_response
+2022-03-27 19:06:13,626:DEBUG:discord.gateway: Keeping shard ID None websocket alive with sequence 3.
+2022-03-27 19:06:13,669:DEBUG:discord.client: Dispatching event socket_raw_receive
+2022-03-27 19:06:13,669:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-03-27 19:06:13,669:DEBUG:discord.client: Dispatching event socket_response
+2022-03-27 19:06:54,877:DEBUG:discord.gateway: Keeping shard ID None websocket alive with sequence 3.
+2022-03-27 19:06:54,920:DEBUG:discord.client: Dispatching event socket_raw_receive
+2022-03-27 19:06:54,920:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-03-27 19:06:54,920:DEBUG:discord.client: Dispatching event socket_response
+2022-03-27 19:07:36,128:DEBUG:discord.gateway: Keeping shard ID None websocket alive with sequence 3.
+2022-03-27 19:07:36,268:DEBUG:discord.client: Dispatching event socket_raw_receive
+2022-03-27 19:07:36,269:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-03-27 19:07:36,269:DEBUG:discord.client: Dispatching event socket_response
+2022-03-27 19:08:17,379:DEBUG:discord.gateway: Keeping shard ID None websocket alive with sequence 3.
+2022-03-27 19:08:17,423:DEBUG:discord.client: Dispatching event socket_raw_receive
+2022-03-27 19:08:17,424:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-03-27 19:08:17,424:DEBUG:discord.client: Dispatching event socket_response
+2022-03-27 19:08:58,630:DEBUG:discord.gateway: Keeping shard ID None websocket alive with sequence 3.
+2022-03-27 19:08:58,673:DEBUG:discord.client: Dispatching event socket_raw_receive
+2022-03-27 19:08:58,673:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-03-27 19:08:58,673:DEBUG:discord.client: Dispatching event socket_response
+2022-03-27 19:09:10,681:DEBUG:discord.gateway: Received WSMessage(type=<WSMsgType.CLOSE: 8>, data=4003, extra='Not authenticated.')
+2022-03-27 19:09:10,682:INFO:discord.gateway: Websocket closed with 4003, attempting a reconnect.
+2022-03-27 19:09:10,682:INFO:discord.client: Got a request to RESUME the websocket.
+2022-03-27 19:09:10,682:DEBUG:discord.client: Dispatching event disconnect
+2022-03-27 19:09:13,771:DEBUG:discord.http: GET https://discord.com/api/v7/gateway with None has returned 200
+2022-03-27 19:09:13,771:DEBUG:discord.http: GET https://discord.com/api/v7/gateway has received {'url': 'wss://gateway.discord.gg'}
+2022-03-27 19:09:13,917:DEBUG:discord.gateway: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2022-03-27 19:09:13,917:DEBUG:discord.client: Dispatching event socket_raw_receive
+2022-03-27 19:09:13,917:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 10, 'd': {'heartbeat_interval': 41250, '_trace': ['["gateway-prd-main-sktr",{"micros":0.0}]']}}
+2022-03-27 19:09:13,917:DEBUG:discord.client: Dispatching event socket_response
+2022-03-27 19:09:13,917:DEBUG:discord.client: Dispatching event socket_raw_send
+2022-03-27 19:09:13,918:DEBUG:discord.client: Dispatching event socket_raw_send
+2022-03-27 19:09:13,918:INFO:discord.gateway: Shard ID None has sent the RESUME payload.
+2022-03-27 19:09:13,958:DEBUG:discord.client: Dispatching event socket_raw_receive
+2022-03-27 19:09:13,958:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-03-27 19:09:13,958:DEBUG:discord.client: Dispatching event socket_response
+2022-03-27 19:09:13,960:DEBUG:discord.client: Dispatching event socket_raw_receive
+2022-03-27 19:09:13,960:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 9, 'd': False}
+2022-03-27 19:09:13,960:DEBUG:discord.client: Dispatching event socket_response
+2022-03-27 19:09:13,960:INFO:discord.gateway: Shard ID None session has been invalidated.
+2022-03-27 19:09:14,004:INFO:discord.client: Got a request to IDENTIFY the websocket.
+2022-03-27 19:09:14,004:DEBUG:discord.client: Dispatching event disconnect
+2022-03-27 19:09:14,030:DEBUG:discord.http: GET https://discord.com/api/v7/gateway with None has returned 200
+2022-03-27 19:09:14,030:DEBUG:discord.http: GET https://discord.com/api/v7/gateway has received {'url': 'wss://gateway.discord.gg'}
+2022-03-27 19:09:14,112:DEBUG:discord.gateway: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2022-03-27 19:09:14,112:DEBUG:discord.client: Dispatching event socket_raw_receive
+2022-03-27 19:09:14,112:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 10, 'd': {'heartbeat_interval': 41250, '_trace': ['["gateway-prd-main-h1rt",{"micros":0.0}]']}}
+2022-03-27 19:09:14,112:DEBUG:discord.client: Dispatching event socket_response
+2022-03-27 19:09:14,112:DEBUG:discord.client: Dispatching event socket_raw_send
+2022-03-27 19:09:19,118:DEBUG:discord.client: Dispatching event socket_raw_send
+2022-03-27 19:09:19,119:INFO:discord.gateway: Shard ID None has sent the IDENTIFY payload.
+2022-03-27 19:09:19,119:DEBUG:discord.client: Dispatching event socket_raw_receive
+2022-03-27 19:09:19,119:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-03-27 19:09:19,119:DEBUG:discord.client: Dispatching event socket_response
+2022-03-27 19:09:19,178:DEBUG:discord.gateway: Received WSMessage(type=<WSMsgType.CLOSE: 8>, data=4004, extra='Authentication failed.')
+2022-03-27 19:09:19,178:INFO:discord.gateway: Websocket closed with 4004, cannot reconnect.
+2022-03-27 19:09:19,178:DEBUG:discord.client: Dispatching event disconnect
+2022-03-27 19:09:19,179:INFO:discord.client: Cleaning up tasks.
+2022-03-27 19:09:19,179:INFO:discord.client: Closing the event loop.
